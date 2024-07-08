@@ -1,0 +1,24 @@
+.component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  height: 20px;
+  width: 300px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transform: translateX(-90%);
+  background-color: green;
+}
